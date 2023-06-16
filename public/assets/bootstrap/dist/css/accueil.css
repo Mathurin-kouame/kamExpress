@@ -5,33 +5,195 @@
 }
 
 .accueil{
+    margin-top: -1%;
     position: relative;
-    overflow: hidden;
     width: 100%;
-    height: 50vh;
-    object-fit: cover;
-    position: relative;
+    height: 80vh;
     border: 1px solid #3705ff;
-    background: url("/images/imgs/carB.jpeg");   
-    filter: blur(0);
     
 } 
+.bgd_img img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    filter: brightness(.7);
+}
 
 .contain_1{
     position: absolute;
     border: 1px solid #FF7D05;
-    background-color: aqua;
-    margin-top: 30%;
-    margin: 10 auto;
-
+    justify-content: center;
+    margin: 5px 100px;
+    width: 90%;
+    color: #fff;
+    margin-top: -23%;
+    text-align: center;
     
 
-
 }
+
 .myTes_1{
     color: #fff;
 }
 
 .span_logo{
     color: #FF7D05;
+}
+.descript{
+    margin-top: 2%;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    border: 1px solid #0533ff; 
+}
+/* *******position de la première section ********/
+
+.section_1{
+   padding-top: -20%;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #FF7D05;
+    background-color: #d2cbc6;
+}
+/* creaction des cartes */
+
+.cartes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    position: relative;
+    margin: 2%;
+    background: #fff;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 2px 3px 0px rgba(111, 101, 101, 0.25);
+    border-radius: 3px;
+    transition: .2s all;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 30px;
+  }
+  
+  .card > span {
+    position: absolute;
+    display: block;
+    margin: auto;
+    margin-top: 30%;
+    font-size: 2rem;
+    /* color: #df6c15; */
+    max-width: 2000px;
+
+  }
+  .card img{
+    margin-top: -6%;
+    width: 100%;
+    height: 25vh;
+  }
+  
+  .cartes:hover .card {
+    filter: blur(0px);
+    /* opacity: .10; */
+    transform: scale(.98);
+    box-shadow: none;
+  }
+  
+  .cartes:hover .card:hover {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow: 0 8px 20px 0px rgba(186, 15, 15, 0.125);
+    background: #fff;
+    color: #fff;
+  }
+
+  .link_discover{
+    margin-top: 10%;
+    padding-top: 1% ;
+    width: 300px;
+    height: 5vh;
+    background-color: #FF7D05;
+  }
+
+  .link_discover a{
+   font-size: 1.5rem;
+   text-decoration: none;
+  }
+
+  .link_discover:hover{
+   
+    color: #fff;
+
+  }
+
+  .space_info{
+    padding: 0 auto;
+    position: relative;
+    padding-top: -20%;
+    width: 53%;
+    height: 50vh;
+    margin: 0 auto;
+    text-align: justify;
+    border: 1px solid #ce0a0a;
+  }
+
+  .space_info img{
+    width: 100%;
+    height: 50vh;
+    margin:  auto;
+  }
+
+  .descript_espace{
+    position: absolute;
+    border: 1px solid #FF7D05;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    margin-top: -30%;
+    
+  }
+  
+  .descript_espace h4{
+    
+    text-align: center;
+  }
+
+/* fin creaction des cartes */
+
+/*deuxieme section */
+
+.section_2{
+  padding: 0 auto;
+  position: relative;
+  padding-top: -20%;
+  width: 53%;
+  height: 50vh;
+  margin: 0 auto;
+  text-align: justify;
+  border: 1px solid #090909;
+}
+.contain_setion2{
+  padding: 0 auto;
+  position: relative;
+  padding-top: -20%;
+  width: 53%;
+  height: 50vh;
+  margin: 0 auto;
+  text-align: justify;
+  border: 1px solid #770a46;
+}
+
+.descript_sect2{
+   text-align: center;
+}
+.section_2 img{
+  width: 100%;
+  height: 50vh;
+  margin:  auto;
 }
