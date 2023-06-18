@@ -7,11 +7,30 @@
     <title>Accueil</title>
     <link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/styles_personalises/headers.css" rel="stylesheet">
+     <link href="/assets/bootstrap/dist/css/contact.css" rel="stylesheet">
 </head>
 <body>
-    
-    
-
+    <div class="contacts">
+         <img src="/images/imgs/carB.jpeg" alt="">
+        <div class="text-contact">
+            <h4>Contactez-nous</h4>
+        </div> 
+    </div>
+    <div class="gran_forms">
+        <div class="contact-form">
+            <span class="heading">Pour nous contacter, merci de bien vouloir remplir le formulaire suivant. <br>
+                Notre équipe s'engage à vous répondre dans les plus brefs délais.</span>
+            <form>
+              <label for="name">votre nom complet:</label>
+              <input type="text" required="">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required="">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required=""></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+    </div>
     <script src="/assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
