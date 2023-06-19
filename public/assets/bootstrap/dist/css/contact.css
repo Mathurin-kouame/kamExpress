@@ -7,7 +7,7 @@
 .contacts{
     position: relative;
     width: 100%;
-    height: 45vh;
+    height: 47vh;
     border: 1px solid #3705ff; 
     margin-bottom: 12%;
 }
@@ -15,7 +15,7 @@
 .contacts img{
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 65vh;
 }
 
 .text-contact{
@@ -45,7 +45,7 @@
   margin: 0 auto;
   padding: 0 auto;
   width: 90%;
-  height: 70vh;
+  height: 75vh;
   background-color: #f2f2f2;
   padding: 20px;
   border-radius: 10px;
@@ -65,19 +65,30 @@
 
 .icons_contact{
   width: 50%;
-  height: 24vh;
+  height: 50vh;
   text-align: center;
   border: 1px solid #0b831b;
 }
-.form_contn{
-  align-items: center;
-  width: 100%;
-  height: 45vh;
-  border: 1px solid #f6d70e;
+
+.font_icon{
+  padding-bottom: 5px;
+  margin-left: 5rem;
+  width: 45px;
+  height: 45px;
+  border: 1px solid rgb(207, 202, 202);
+  border-radius: 60px;
 }
 
+.font_icon i{
+  font-size: 16px;
+}
 
-
+.form_contn{
+  align-items: center;
+  width: 85%;
+  height: 50vh;
+  border: 1px solid #f6d70e;
+}
 
   .contact-form label {
     color: black;
@@ -139,8 +150,8 @@
   }
 
   .google_map{
-
-    width: 100%;
+    margin: 0 auto;
+    width: 85%;
     height: 40vh;
     border: 1px solid #0b5783;
   }
