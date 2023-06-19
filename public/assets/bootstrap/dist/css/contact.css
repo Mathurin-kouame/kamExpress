@@ -27,26 +27,58 @@
    text-align: center;
    border: 1px solid #ec7f0c;
 }
+
+
+
 /* formulaire d'enregistrement */
+
 
 .gran_forms{
    margin-top: 5%;
    width: 100%;
-   height: 100vh;
+   height: 80vh;
    border: 1px solid #000;
+   display: block;
 
 }
 .contact-form {
-    margin: 0 auto;
-    width: 100%;
-    height: 70vh;
-    
-    background-color: #f2f2f2;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #ff6384;
-  }
-  
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 90%;
+  height: 70vh;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ff6384;
+}
+
+.contact-form span{
+  text-align: center;
+  padding: 2%;
+}
+
+.formms{
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin: 0 auto;
+}
+
+.icons_contact{
+  width: 50%;
+  height: 24vh;
+  text-align: center;
+  border: 1px solid #0b831b;
+}
+.form_contn{
+  align-items: center;
+  width: 100%;
+  height: 45vh;
+  border: 1px solid #f6d70e;
+}
+
+
+
+
   .contact-form label {
     color: black;
   }
@@ -76,7 +108,7 @@
   }
   
   .contact-form input, .contact-form textarea {
-    width: 30%;
+    width: 40%;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -91,7 +123,7 @@
   }
   
   .contact-form button[type="submit"] {
-    width: 20%;
+    width: 30%;
     background-color: #d76407;
     color: #fff;
     border: none;
@@ -104,6 +136,13 @@
   .contact-form button[type="submit"]:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
+  }
+
+  .google_map{
+
+    width: 100%;
+    height: 40vh;
+    border: 1px solid #0b5783;
   }
   
 
