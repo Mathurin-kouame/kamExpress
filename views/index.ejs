@@ -8,13 +8,14 @@
     <link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/styles_personalises/headers.css" rel="stylesheet">
     <link href="/assets/bootstrap/dist/css/accueil.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles_personalises/footer.css">
     
     
 </head>
 <body>
-    
+    <%- include("header.ejs") %>
     <main>
-        <%- include("header.html") %>
+       
        <div class="accueil">
         <div class="bgd_img">
             <img src="/images/imgs/carB.jpeg" alt="">
@@ -53,7 +54,7 @@
                 <h4>Nos cars circulent dans toutes les communes d’ abidjan,
                     dans le cadre de lignes régulières et scolaires, 
                    mais également pour des clients privés :
-                    excursion scolaire, voyage organisé, transport touristique…
+                    excursion scolaire, voyage organisé.
                    </h4>
             </div>
            
@@ -61,19 +62,22 @@
       </section> 
       <section class="section_2">
         <div class="contain_setion2">
-        <div class="descript_sect2" >
+        <div class="descript_sect2">
             <h2>Lignes régulières et location de cars</h2>
             <h4>Découvrez sur ce site tous nos services et lignes de transport de voyageurs.</h4>
         </div>
-        <img src="/images/imgs/mgP4.jpeg" alt="">
+        
       </div>
       </section>
-
+      <section class="section_3">
+        <img src="/images/imgs/mgP4.jpeg" alt="">
+      
+      </section>
 
     </main>
 
-    <%- include("footer.html") %>
-
+    <%- include("footer.ejs") %>
+    <script src="/assets/Js/header.js"></script>
     <script src="/assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

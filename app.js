@@ -7,30 +7,35 @@ const session = require('express-session');
 
 const app = express();
 
-app.engine("html", ejs.__express);
+// app.engine("html", ejs.__express);
 
 app.use(express.static(path.join(__dirname, "public")));
 
-app.set("view engine", "html");
+app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
 app.get("/", (req, res) => {
-  res.render("index", { servis});
-});
-app.get("/connexion", (req, res) => {
-  res.render("connexion");
-});
-app.get("/inscription", (req, res) => {
-  res.render("inscription");
+  res.render("index");
 });
 
 app.get("/apropos", (req, res) => {
   res.render("apropos");
 });
 
+app.get("/services", (req, res) => {
+  res.render("services");
+});
+
 app.get("/contact", (req, res) => {
   res.render("contact");
 });
+app.get("/connexion", (req,res) => {
+  req.render("connexion");
+});
+app.get("/inscription", (req, res) => {
+  res.render("inscription");
+});
+
 
 app.get("/video", (req, res) => {
   const range = req.headers.range;
