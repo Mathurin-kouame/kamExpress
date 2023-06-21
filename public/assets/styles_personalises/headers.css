@@ -56,12 +56,12 @@ a {
   gap: 30px;
 }
 .nav-Logo {
-  color: #FF7D05;
+  color: aqua;
   font-size: 2rem;
 }
 .nav-link:hover {
   border-bottom: 3px solid;
-  color: #FF7D05;
+  color: aqua;
 }
 .menuBurger {
   display: none;

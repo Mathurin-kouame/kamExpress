@@ -29,9 +29,11 @@ app.get("/services", (req, res) => {
 app.get("/contact", (req, res) => {
   res.render("contact");
 });
-app.get("/connexion", (req,res) => {
-  req.render("connexion");
+
+app.get("/espaceClient", (req, res) => {
+  res.render("espaceClient");
 });
+
 app.get("/inscription", (req, res) => {
   res.render("inscription");
 });

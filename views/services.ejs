@@ -1,15 +1,16 @@
-<div class="col">
-    <div class="card shadow-sm">
-        <img src=<%= servis.lienThumbnail %> alt="Thumbnail" width="100%" height="225">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>services</title>
+  <link href="/assets/styles_personalises/headers.css" rel="stylesheet">
+  <link href="/assets/styles_personalises/footer.css" rel="stylesheet">
+</head>
+<body>
+  <%- include("header.ejs") %>
 
-      <div class="card-body">
-        <h6 class="card-text"><%= servis.titre %></h6>
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group">
-            <a href="./lectureVideo" class="btn btn-sm btn-outline-secondary">Voir plus</a>
-          </div>
-          <small class="text-muted"></small>
-        </div>
-      </div>
-    </div>
-  </div>
+  <%- include("footer.ejs") %>
+</body>
+</html>
