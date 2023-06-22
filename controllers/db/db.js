@@ -5,5 +5,6 @@ dotenv.config();
 //importer mongoose
 
 const mongoose.connect(
-  `mongodb+srv://kouame16yao:<password>@cluster0.slxpkob.mongodb.net/?retryWrites=true&w=majority`  
+  `${process.env.DB_PROTOCOLE}://kouame16yao:kouame16.@cluster0.slxpkob.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`,`{uneNewUrIParser: true}`
+
 )
