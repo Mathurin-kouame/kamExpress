@@ -1,4 +1,5 @@
 .contain_apropos{
+    position: relative;
     margin: 0 auto;
     height: 60vh;
     width: 100%;
@@ -7,16 +8,21 @@
 
 .contain_apropos img{
     width: 100%;
-    height: 40vh;
+    height: 50vh;
+    filter: blur(.25);
 }
 
 .title_apropos{
-    margin: 0 auto;
-    margin-top: -14%;
-    height: 12vh;
-    width: 40%;
+    position: absolute;
+    width: 100%;
+    margin-top: -20%;
     color: #fff;
+    text-align: center;
+    border: 3px solid #fff; 
     border: 3px solid rgb(155, 13, 13);
+}
+.title_apropos h4{
+    font-size: 3rem;
 }
 
 .n_Objectif{
@@ -30,3 +36,4 @@
 .contain_apropos span{
     color: aqua;
 }
+

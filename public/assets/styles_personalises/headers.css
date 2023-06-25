@@ -47,6 +47,7 @@ a {
   align-items: center;
   padding: 0 24px;
 }
+
 .nav-menu {
   display: flex;
   font-size: 1.3rem;
@@ -63,6 +64,10 @@ a {
   border-bottom: 3px solid;
   color: aqua;
 }
+.navbar .nav-menu .nav-item.active a{
+  color: aqua;
+}
+
 .menuBurger {
   display: none;
   cursor: pointer;

@@ -1,0 +1,27 @@
+.head-tarif{
+    position: relative;
+    margin: 0 auto;
+    height: 22rem;
+    width: 100%;
+    border: 3px solid rgb(110, 5, 5); 
+}
+
+.head-tarif img{
+    height: 22rem;
+    width: 100%;
+}
+.head-tarif .title_tarif{
+    position: absolute;
+    width: 100%;
+    margin-top: -20%;
+    color: #fff;
+    text-align: center;
+    border: 3px solid #fff; 
+}
+
+.head-tarif h4{
+    text-align: center;
+    padding: 2px;
+    color: #fff;
+    font-size: 3.5rem;
+}
