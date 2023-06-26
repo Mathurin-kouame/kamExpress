@@ -4,22 +4,22 @@ body{
 .main-ap{
     position: relative;
     margin: 0 auto;
-    height: 22rem;
+    height: 500px;
     width: 100%;
-    border: 3px solid rgb(110, 5, 5); 
+    /* border: 3px solid rgb(110, 5, 5);  */
 }
 
 .main-ap img{
-    height: 22rem;
+    height:100%;
     width: 100%;
 }
 .main-ap .titre_s{
     position: absolute;
     width: 100%;
-    margin-top: -20%;
+    margin-top: -14%;
     color: #fff;
     text-align: center;
-    border: 3px solid #fff; 
+   
 }
 
 .main-ap .titre_s h4{
@@ -30,14 +30,21 @@ body{
 }
 
 /* carousel */
+
+.cardres{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card {
     margin: 0 auto;
     margin-bottom: 2%;
-    width: 70%;
-    height: 300px;
+    width: 25%;
+    height: 500px;
     background: #fff;
     border-radius: 3px;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: left;
     backdrop-filter: blur(10px);
@@ -50,7 +57,8 @@ body{
   }
   
   .img {
-    width: 700px;
+    width: 100%;
+    padding: 14px;
     height: 300px;
     border-radius: 3px;
     

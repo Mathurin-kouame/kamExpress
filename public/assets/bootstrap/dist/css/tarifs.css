@@ -1,19 +1,19 @@
 .head-tarif{
     position: relative;
     margin: 0 auto;
-    height: 22rem;
+    height: 500px;
     width: 100%;
     border: 3px solid rgb(110, 5, 5); 
 }
 
 .head-tarif img{
-    height: 22rem;
+    height: 100%;
     width: 100%;
 }
 .head-tarif .title_tarif{
     position: absolute;
     width: 100%;
-    margin-top: -20%;
+    margin-top: -14%;
     color: #fff;
     text-align: center;
     border: 3px solid #fff; 
@@ -25,3 +25,48 @@
     color: #fff;
     font-size: 3.5rem;
 }
+
+.contain_taffs{
+    margin-top: 10%;
+}
+
+.contain-taff{
+    margin-top: 10%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #d6c910;
+    background-color: rgb(24, 102, 169);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Exemple : Mise en gras du tarif */
+  td:nth-child(2) {
+    font-weight: bold;
+  }

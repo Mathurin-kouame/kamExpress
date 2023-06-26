@@ -26,6 +26,10 @@ app.get("/services", (req, res) => {
   res.render("services");
 });
 
+app.get("/evenement", (req, res) => {
+  res.render("evenement");
+});
+
 app.get("/tarifs", (req, res) => {
   res.render("tarifs");
 });
