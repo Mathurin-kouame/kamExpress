@@ -30,23 +30,34 @@ body{
 }
 
 /* carousel */
+.text_lac{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.event h1{
+  text-align: center;
+  margin-top: 12px;
+}
 
 .cardres{
+  margin: 0 auto;
+  margin-top: 5%;
   width: 80%;
   display: flex;
   flex-wrap: wrap;
+ 
 }
 
 .card {
     margin: 0 auto;
-    margin-bottom: 2%;
     width: 25%;
     height: 500px;
     background: #fff;
     border-radius: 3px;
     /* display: flex; */
     align-items: center;
-    justify-content: left;
+    /* justify-content: left; */
     backdrop-filter: blur(10px);
     transition: 0.5s ease-in-out;
   }
@@ -106,7 +117,29 @@ body{
     font-weight: lighter;
   }
   
-  
+  .carddd{
+   margin: 0 auto;
+   margin-top: 5%;
+    width: 80%;
+    height: 700px;
+    justify-content: center;
+    /* border: 1px solid #000; */
+  }
+
+  .carddd h1{
+    text-align: center;
+  }
+  .conta_cadre{
+    display: flex;
+   
+  }
+
+  .carddd .card{
+    margin-top: 5%;
+    flex-wrap: wrap;
+
+    
+  }
   
   
   
