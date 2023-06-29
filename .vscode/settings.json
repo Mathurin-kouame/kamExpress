@@ -1,4 +1,11 @@
 {
   "liveServer.settings.port": 5501,
-  "cSpell.words": ["connexion", "espace"]
+  "cSpell.words": [
+    "connexion",
+    "espace",
+    "evenement",
+    "layauts",
+    "patials",
+    "tarifs"
+  ]
 }

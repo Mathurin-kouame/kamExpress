@@ -13,7 +13,7 @@
    
 </head>
 <body>
-    <%- include("header.ejs") %>
+    <%- include("../views/patials/header.ejs") %>
     <main>
        
        <div class="accueil">
@@ -21,12 +21,13 @@
             <img src="/images/imgs/carB.jpeg" alt="">
         </div>
         <div class="contain_1">
-            <h1 class="myTes_1">Transport de sortie scolaire et Evénémentiel</h1>
-            <h4>Deplacez-vous en toute sécurité en côte d'ivoire avec <span class="span_logo">KamExpress</span></h4>
+          <h2>La solution idéale pour vos sorties scolaires et événements</h2>
+          <p>Contactez-nous dès aujourd'hui pour réserver votre véhicule</p>
+          <a href="/contact" class="button">Réserver maintenant</a>
         </div>
        </div>
        <div class="descript">
-         <h2>Les cars de KamExpress sont un acteur majeur de l’offre de déplacement proposée à la population ivoirienne.
+         <h2>Nous offrons des solutions de transport sûres et confortables pour les sorties scolaires, les excursions et les voyages éducatifs.
         </h2> 
         <h4>Notre entreprise familiale et indépendante assure le transport de plusieurs millier de voyageurs, scolaires et événementiel.
         </h4>  
@@ -35,14 +36,14 @@
        <div class="cartes">
             <div class="card">
                 <img src="/images/imgs/sortie-étudiants.png" alt="">
-                <span>Transport de sortie scolaire</span>
+                <span>Sorties scolaires</span>
                 <div class="link_discover">
                     <a href="/services">Découvrir</a>
                 </div>
             </div>
             <div class="card">
                 <img src="images/imgs/even.jpeg" alt="">
-                <span>Transport événementiel</span>
+                <span>Événements spéciaux</span>
                 <div class="link_discover">
                     <a href="/services">Découvrir</a>
                 </div>
@@ -51,11 +52,9 @@
         <div class="space_info">
             <img src="/images/imgs/IMP3.jpeg" alt="">
             <div class="descript_espace">
-                <h4>Nos cars circulent dans toutes les communes d’ abidjan,
-                    dans le cadre de lignes régulières et scolaires, 
-                   mais également pour des clients privés :
-                    excursion scolaire, voyage organisé.
-                   </h4>
+                <h4>
+                  Que ce soit pour un mariage, un anniversaire ou tout autre événement spécial, nous avons le véhicule idéal pour vous.
+                </h4>
             </div>
            
         </div>
@@ -71,14 +70,14 @@
             <img src="/images/imgs/busss.jpeg" alt="">
             <div class="card__content">
               <p class="card__title">Cars</p>
-              <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <p class="card__description">Nos cars  sont équipés de sièges confortables, de climatisation et de commodités pour rendre votre voyage agréable.</p>
             </div>
           </div>
           <div class="card">
             <img src="/images/imgs/min_bus.jpeg" alt="">
             <div class="card__content">
-              <p class="card__title">Mini bus</p>
-              <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <p class="card__title">Minibus</p>
+              <p class="card__description">Nos minibus sont parfaits pour les petits groupes et les sorties plus intimes</p>
             </div>
           </div>
           
@@ -138,7 +137,7 @@
 <!-- ssdffgggb -->
     </main>
 
-    <%- include("footer.ejs") %>
+    <%- include("../views/patials/footer.ejs") %>
     <script src="/assets/bootstrap/dist/js/accueil.js"></script>
     <script src="/public/assets/bootstrap/dist/js/header.js"></script>
     <script src="/assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

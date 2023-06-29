@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="/assets/styles_personalises/headers.css" rel="stylesheet">
+  <link  href="/assets/bootstrap/dist/css/inscription.css" rel="stylesheet">
+  <link href="/assets/styles_personalises/footer.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header> 
+    <%- include("../views/patials/header.ejs") %>
+  </header>
+  <h2>Demmande de devis</h2>
+      <!-- registre debut -->
+      <div class="contact-form">
+        <span class="heading">Contact Us</span>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" required="">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required="">
+
+          <label for="telephone">Téléphone:</label>
+          <input type="text" id="telephone" required>
+    
+          <label for="lieu">Lieu:</label>
+          <input type="text" id="lieu" required>
+    
+
+           <label for="bus">Type de véhicule:</label>
+          <select class="select-chx" id="bus" required>
+            <option value="">Choisir le type de véhicule</option>
+            <option value="bus-de-luxe">Cars</option>
+            <option value="minibus">Minibus</option>
+          </select> 
+
+          <label for="date">Date de débus:</label>
+          <input type="date" id="date" required>
+
+          <label for="date">Date de fin:</label>
+          <input type="date" id="date" required>
+    
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+       <!-- registre fin-->
+<footer>
+  <%- include("../views/patials/footer.ejs") %>
+</footer>
+     
+</body>
+</html>
