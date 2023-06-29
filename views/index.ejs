@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
-    <link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="/assets/styles_personalises/headers.css" rel="stylesheet">
     <link href="/assets/bootstrap/dist/css/accueil.css" rel="stylesheet">
     <link href="/assets/styles_personalises/footer.css" rel="stylesheet">
@@ -13,7 +13,7 @@
    
 </head>
 <body>
-    <%- include("../views/patials/header.ejs") %>
+    <%- include("../views/partials/header.ejs") %>
     <main>
        
        <div class="accueil">
@@ -23,7 +23,10 @@
         <div class="contain_1">
           <h2>La solution idéale pour vos sorties scolaires et événements</h2>
           <p>Contactez-nous dès aujourd'hui pour réserver votre véhicule</p>
-          <a href="/contact" class="button">Réserver maintenant</a>
+          <div class="btn_rev">
+            <a href="/contact" >Réserver maintenant</a>
+          </div>
+        
         </div>
        </div>
        <div class="descript">
@@ -137,10 +140,14 @@
 <!-- ssdffgggb -->
     </main>
 
-    <%- include("../views/patials/footer.ejs") %>
+    <%- include("../views/partials/footer.ejs") %>
+    <script src="/assets/bootstrap/dist/js/header.js"></script>
     <script src="/assets/bootstrap/dist/js/accueil.js"></script>
-    <script src="/public/assets/bootstrap/dist/js/header.js"></script>
     <script src="/assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/hover.js"></script>
 
 </body>
 </html>
+<script>
+  document.querySelectorAll('.nav-item')[0].classList.add("active")
+</script>

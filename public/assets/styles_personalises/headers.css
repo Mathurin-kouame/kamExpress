@@ -1,20 +1,3 @@
-/* .form-control-dark {
-  border-color: var(--bs-gray);
-}
-.form-control-dark:focus {
-  border-color: #001017;
-  box-shadow: 0 0 0 .25rem rgba(222, 9, 9, 0.25);
-}
-
-.text-small {
-  font-size: 85%;
-}
-
-.dropdown-toggle {
-  outline: 0;
-} */
-
-
 * {
   margin: 0;
   padding: 0;
@@ -102,7 +85,7 @@ a {
     top: 80px;
     gap: 0;
     flex-direction: column;
-    background-color: #001017;
+    background-color:#001017;
     width: 100%;
     height: 20vh;
     padding-top: 5px;
@@ -116,4 +99,8 @@ a {
   .nav-menu.active {
     left: 0;
   }
+}
+
+.active{
+  color: aqua;
 }

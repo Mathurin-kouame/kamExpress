@@ -8,7 +8,7 @@
     position: relative;
     width: 100%;
     height: 90vh;
-    border: 1px solid #3705ff;
+    /* border: 1px solid #3705ff; */
     
 } 
 
@@ -21,15 +21,31 @@
 
 .contain_1{
     position: absolute;
-    border: 1px solid #FF7D05;
     justify-content: center;
-    margin: 5px 100px;
+    margin-left: 100%;
     width: 70%;
+    height: 14vh;
     color: #fff;
-    margin-top: -20%;
+    font-size: 1.5rem;
     text-align: center;
-    
+}
 
+.btn_rev{
+  margin-top: 20%;
+    margin: 0 auto;
+    width: 300px;
+    height: 40px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    font-size: 1.9rem;
+}
+
+.btn_rev:hover{
+   background-color: #21719369;
+   box-shadow: -1px 0px 25px 0px #21719369;
+   font-size: 1.5rem;
+   color: #fff;
+   border: 2px solid aqua;
 }
 
 .myTes_1{
@@ -119,7 +135,7 @@
     padding-top: 1% ;
     width: 300px;
     height: 5vh;
-    background-color: #FF7D05;
+    background-color:#21719369;
   }
 
   .link_discover a{
@@ -441,149 +457,149 @@ img {
     width: 100%;
     height: 70vh;
     /* border: 1px solid #3705ff; */
-    
-} 
-
-.descript{
-  margin-top: 2%;
-  width: 80%;
-  height: 20vh;
-  text-align: center;
-  border: 4px solid #0533ff; 
-}
-
-.descript h2{
-  font-size: 2rem;
-}
-
-.contain_1{
-  position: absolute;
-  justify-content: center;
-  margin: 5px 100px;
-  width: 70%;
-  color: #fff;
-  margin-top: -10%;
-  text-align: center;
-  border: 3px solid #FF7D05;
+  }
   
-
-}
-
-.card {
-  position: relative;
-  margin: 2%;
-  background: #fff;
-  width: 450px;
-  height: 400px;
-  box-shadow: 0 2px 3px 0px rgba(111, 101, 101, 0.25);
-  border-radius: 3px;
-  transition: .2s all;
-  cursor: pointer;
-  align-items: center;
-  text-align: center;
-  font-size: 13px;
-  padding-top: 30px;
-}
-
-.card > span {
-  position: absolute;
-  display: block;
-  margin: auto;
-  margin-top: -16%;
-  font-size: 2rem;
-  color: #f3efed;
-  max-width: 2000px;
-
-}
-
-.card img{
-  margin-top: -23%;
-  width: 100%;
-  height: 45vh;
-}
-
-.space_info{
-  position: relative;
-  margin-top: 0%;
-  width: 74%;
-  height: 0%;
-  margin: 0 auto;
-  text-align: justify;
-  border: 1px solid #ce0a0a;
-  border: 1px solid #0ace3e;
-}
-
-.space_info img{
-  width: 100%;
-  height: 40vh;
-  margin:  auto;
-}
-
-.descript_espace h4{
-  text-align: center;
-  margin-top: 10%;
-}
-
-
-.section_2{
-  padding: 12px auto;
-  position: relative;
-  margin-top: 12%;
-  padding-top: 50px;
-  width: 100%;
-  height: 80vh;
-  margin: 0 auto;
-  text-align: justify;
-  /* border: 5px solid #c70c0c; */
-}
-
-.link_discover{
-  position: absolute;
-  margin-top: 70%;
-  width: 300px;
-  height: 6vh;
-  background-color: #FF7D05;
-}
-
+  .descript{
+    margin-top: 2%;
+    width: 80%;
+    height: 20vh;
+    text-align: center;
+    border: 4px solid #0533ff; 
+  }
+  
+  .descript h2{
+    font-size: 2rem;
+  }
+  
   .contain_1{
     position: absolute;
-    border: 1px solid #FF7D05;
     justify-content: center;
     margin: 5px 100px;
     width: 70%;
     color: #fff;
-    margin-top: -30%;
+    margin-top: -20%;
     text-align: center;
-}
-.myTes_1{
-    color: #fff;
-    font-size: 3rem;
-}
-
-.descript{
-    margin-top: 8%;
-    width: 100%;
-    height: 25vh;
-    text-align: center;
-    border: 1px solid #0533ff; 
-}
-
-.descript h2 h4{
-    font: 2rem;
-}
-  .card__content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: #f2f2f2;
-    transform: rotateX(-90deg);
-    transform-origin: bottom;
-    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   
+    
+  
   }
+  
+  .card {
+    position: relative;
+    margin: 2%;
+    background: #fff;
+    width: 450px;
+    height: 400px;
+    box-shadow: 0 2px 3px 0px rgba(111, 101, 101, 0.25);
+    border-radius: 3px;
+    transition: .2s all;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 30px;
+  }
+  
+  .card > span {
+    position: absolute;
+    display: block;
+    margin: auto;
+    margin-top: -16%;
+    font-size: 2rem;
+    color: #f3efed;
+    max-width: 2000px;
+  
+  }
+  
+  .card img{
+    margin-top: -23%;
+    width: 100%;
+    height: 45vh;
+  }
+  
+  .space_info{
+    position: relative;
+    margin-top: 0%;
+    width: 74%;
+    height: 0%;
+    margin: 0 auto;
+    text-align: justify;
+    border: 1px solid #ce0a0a;
+    border: 1px solid #0ace3e;
+  }
+  
+  .space_info img{
+    width: 100%;
+    height: 40vh;
+    margin:  auto;
+  }
+  
+  .descript_espace h4{
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  
+  .section_2{
+    padding: 12px auto;
+    position: relative;
+    margin-top: 12%;
+    padding-top: 50px;
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+    text-align: justify;
+    /* border: 5px solid #c70c0c; */
+  }
+  
+  .link_discover{
+    position: absolute;
+    margin-top: 70%;
+    width: 300px;
+    height: 6vh;
+    background-color: #217093;
+  }
+  
+    .contain_1{
+      position: absolute;
+      justify-content: center;
+      /* margin: 5px 100px; */
+      width: 70%;
+      color: #fff;
+      margin-top: -30%;
+      text-align: center;
+  }
+  .myTes_1{
+      color: #fff;
+      font-size: 3rem;
+  }
+  
+  .descript{
+      margin-top: 8%;
+      width: 100%;
+      height: 25vh;
+      text-align: center;
+      border: 1px solid #0533ff; 
+  }
+  
+  .descript h2 h4{
+      font: 2rem;
+  }
+    .card__content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 50%;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #f2f2f2;
+      transform: rotateX(-90deg);
+      transform-origin: bottom;
+      transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+
 }
 
 
